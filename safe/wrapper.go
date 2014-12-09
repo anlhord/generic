@@ -1,7 +1,7 @@
 // Package safe provides the wrapping of byte slice.
 package safe
 
-import "example.com/repo.git/generic"
+import "github.com/anlhord/generic"
 
 type Wrapper interface {
 	Wrap() generic.Value

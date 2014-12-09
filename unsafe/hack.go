@@ -1,7 +1,7 @@
 package unsafe
 
 import (
-	"example.com/repo.git/generic"
+	"github.com/anlhord/generic"
 	"unsafe"
 )
 

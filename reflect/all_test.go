@@ -1,7 +1,7 @@
 package reflect
 
 import (
-	"example.com/repo.git/generic"
+	"github.com/anlhord/generic"
 	"testing"
 )
 

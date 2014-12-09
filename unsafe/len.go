@@ -1,6 +1,6 @@
 package unsafe
 
-import "example.com/repo.git/generic"
+import "github.com/anlhord/generic"
 
 func Len(b generic.Value) int {
 	if cap(b) == 0 && len(b) > 0 {
