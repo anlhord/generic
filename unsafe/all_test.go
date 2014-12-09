@@ -17,6 +17,10 @@ func TestWrapUnwrapIntegers(t *testing.T) {
 	if g[0] != 1 || g[1] != 3 || g[2] != 3 || g[3] != 7 {
 		t.Fatal("Nope.")
 	}
+
+	if Len(e) != 4 {
+		t.Fatal("Nope.")
+	}
 }
 
 func TestWrapUnwrapInterfaces(t *testing.T) {
@@ -28,6 +32,10 @@ func TestWrapUnwrapInterfaces(t *testing.T) {
 	bar = *Unpack(&big)
 
 	if bar.(int) != 1337 {
+		t.Fatal("Nope.")
+	}
+
+	if Len(big) != 1 {
 		t.Fatal("Nope.")
 	}
 }
