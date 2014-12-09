@@ -1,5 +1,11 @@
 Generic v0.0
 ============
 
-/generic provides the generic Type, Value and Is marker.
-/generic/type provides The.Generic.Type	and The.Generic.Ref marker
+/generic
+	generic Type, Value and Is marker.
+/generic/safe
+	wrapping of byte slice
+/generic/unsafe
+	unsafe wrapping of interface{}, and integer and other slice
+/generic/reflect
+	unsafe wrapping of an arbitrary slice
