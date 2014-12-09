@@ -1,4 +1,4 @@
-Generic v0.0
+Generic v0.1
 ============
 
  - [/generic] 	- generic Type, Value and Is marker.
