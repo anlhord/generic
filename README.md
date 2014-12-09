@@ -1,4 +1,5 @@
 Generic v0.0
 ============
 
-Generic provides the generic Type, Value, Struct and the Is marker.
+/generic provides the generic Type, Value and Is marker.
+/generic/type provides The.Generic.Type	and The.Generic.Ref marker
