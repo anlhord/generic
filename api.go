@@ -11,7 +11,7 @@ type Type [0]Value
 type Is uintptr
 
 // The The type references the generic Type type.
-type The *Type
+const The = uintptr(1)
 
 // The Iface type references the generic interface{} type.
-type Iface *interface{}
+const Iface = uintptr(3)
