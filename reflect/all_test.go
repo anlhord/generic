@@ -1,4 +1,4 @@
-package unsafe
+package reflect
 
 import (
 	"example.com/repo.git/generic"

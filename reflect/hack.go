@@ -1,4 +1,5 @@
-package unsafe
+// Package reflect provides unsafe wrapping of an arbitrary slice by reference.
+package reflect
 
 import (
 	"example.com/repo.git/generic"
