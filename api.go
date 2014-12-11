@@ -10,6 +10,9 @@ type Value []byte
 // The generic Is used to tag various structs, functions to be generic.
 type Is [0]Value
 
+// Marker for an user-specific type collections.
+const CollectionOf 0
+
 // Used to make a generic collection.
 // Don't forget to pad different collections so they don't share a field
 type Collection [0]Value
