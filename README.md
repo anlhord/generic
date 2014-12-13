@@ -2,6 +2,7 @@ Generic v0.1
 ============
 
  - [/generic] 	- generic Type, Value and Is marker.
+ - [/generic/kind]	- determines the kind of generic.Value
  - [/generic/length]	- the Len(generic.Value) operator
  - [/generic/low]	- low level primitives
  - [/generic/safe]	- wrapping of byte slice
@@ -10,6 +11,7 @@ Generic v0.1
  - [/generic/typeof]	- runtime or compile time generic object type comparison
 
 [/generic]:https://github.com/anlhord/generic/tree/master/reflect
+[/generic/kind]:https://github.com/anlhord/generic/tree/master/kind
 [/generic/length]:https://github.com/anlhord/generic/tree/master/length
 [/generic/low]:https://github.com/anlhord/generic/tree/master/low
 [/generic/safe]:https://github.com/anlhord/generic/tree/master/safe

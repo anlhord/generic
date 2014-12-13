@@ -1,3 +1,4 @@
+// Package length provides the Len function for a generic.Value
 package length
 
 import "github.com/anlhord/generic"
