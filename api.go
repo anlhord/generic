@@ -11,7 +11,7 @@ type Value []byte
 type Is [0]Value
 
 // Marker for an user-specific type collections.
-const CollectionOf 0
+const CollectionOf = 0
 
 // Used to make a generic collection.
 // Don't forget to pad different collections so they don't share a field
@@ -19,7 +19,7 @@ type Collection [0]Value
 
 // The generic Interface.
 // Don't forget to pad different collections so they don't share a field
-type Interface [0]interface{}
+type Interface [1]interface{}
 
 // The The type is a magic value that references the generic Is.
 const The = Type(uintptr(2))
