@@ -28,3 +28,8 @@ func S(gvalue interface{}) bool {
 	var i *interface{}
 	return reflect.TypeOf(gvalue) != reflect.TypeOf(i)
 }
+
+// U unpacks a generic value to an interface{}
+func U(o *generic.Value) *interface{} {
+	return (*interface{})(unsafe.Pointer(o))
+}
